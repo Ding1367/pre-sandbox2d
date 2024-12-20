@@ -33,6 +33,8 @@ add_library(sandbox2d STATIC
         include/glutil.hpp
         src/part.cpp
         include/part.hpp
+        src/camera.cpp
+        include/camera.hpp
 )
 
 set_target_properties(sandbox2d PROPERTIES

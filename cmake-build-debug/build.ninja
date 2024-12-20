@@ -89,6 +89,14 @@ build CMakeFiles/sandbox2d.dir/src/part.cpp.o: CXX_COMPILER__sandbox2d_unscanned
   OBJECT_DIR = CMakeFiles/sandbox2d.dir
   OBJECT_FILE_DIR = CMakeFiles/sandbox2d.dir/src
 
+build CMakeFiles/sandbox2d.dir/src/camera.cpp.o: CXX_COMPILER__sandbox2d_unscanned_Debug /Users/alifezithu/Documents/sandbox2d/src/camera.cpp || cmake_object_order_depends_target_sandbox2d
+  DEFINES = -DGL_SILENCE_DEPRECATION
+  DEP_FILE = CMakeFiles/sandbox2d.dir/src/camera.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/alifezithu/Documents/sandbox2d/./include -I/usr/local/include
+  OBJECT_DIR = CMakeFiles/sandbox2d.dir
+  OBJECT_FILE_DIR = CMakeFiles/sandbox2d.dir/src
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target sandbox2d
@@ -97,7 +105,7 @@ build CMakeFiles/sandbox2d.dir/src/part.cpp.o: CXX_COMPILER__sandbox2d_unscanned
 #############################################
 # Link the static library libcore.a
 
-build libcore.a: CXX_STATIC_LIBRARY_LINKER__sandbox2d_Debug CMakeFiles/sandbox2d.dir/src/object.cpp.o CMakeFiles/sandbox2d.dir/src/ndc_plane.cpp.o CMakeFiles/sandbox2d.dir/src/geometry.cpp.o CMakeFiles/sandbox2d.dir/src/engine.cpp.o CMakeFiles/sandbox2d.dir/src/part.cpp.o
+build libcore.a: CXX_STATIC_LIBRARY_LINKER__sandbox2d_Debug CMakeFiles/sandbox2d.dir/src/object.cpp.o CMakeFiles/sandbox2d.dir/src/ndc_plane.cpp.o CMakeFiles/sandbox2d.dir/src/geometry.cpp.o CMakeFiles/sandbox2d.dir/src/engine.cpp.o CMakeFiles/sandbox2d.dir/src/part.cpp.o CMakeFiles/sandbox2d.dir/src/camera.cpp.o
   ARCH_FLAGS = -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles/sandbox2d.dir
