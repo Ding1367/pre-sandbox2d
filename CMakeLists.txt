@@ -3,6 +3,8 @@ project(sandbox2d CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 
+add_compile_definitions(GL_SILENCE_DEPRECATION)
+
 include_directories("./include")
 
 find_library(GLFW_LIBRARY NAMES glfw glfw3)
@@ -29,4 +31,9 @@ add_library(sandbox2d STATIC
         src/engine.cpp
         include/engine.hpp
         include/glutil.hpp
+        src/part.cpp
+        include/part.hpp
 )
+
+set_target_properties(sandbox2d PROPERTIES
+    OUTPUT_NAME "core")

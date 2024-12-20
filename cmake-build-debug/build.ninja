@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/alifezithu/Documents/CLionProjects/sandbox2d/cmake-build-debug/
+cmake_ninja_workdir = /Users/alifezithu/Documents/sandbox2d/cmake-build-debug/
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target sandbox2d
 
@@ -49,31 +49,43 @@ cmake_ninja_workdir = /Users/alifezithu/Documents/CLionProjects/sandbox2d/cmake-
 
 build cmake_object_order_depends_target_sandbox2d: phony || .
 
-build CMakeFiles/sandbox2d.dir/src/object.cpp.o: CXX_COMPILER__sandbox2d_unscanned_Debug /Users/alifezithu/Documents/CLionProjects/sandbox2d/src/object.cpp || cmake_object_order_depends_target_sandbox2d
+build CMakeFiles/sandbox2d.dir/src/object.cpp.o: CXX_COMPILER__sandbox2d_unscanned_Debug /Users/alifezithu/Documents/sandbox2d/src/object.cpp || cmake_object_order_depends_target_sandbox2d
+  DEFINES = -DGL_SILENCE_DEPRECATION
   DEP_FILE = CMakeFiles/sandbox2d.dir/src/object.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  INCLUDES = -I/Users/alifezithu/Documents/CLionProjects/sandbox2d/./include -I/usr/local/include
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/alifezithu/Documents/sandbox2d/./include -I/usr/local/include
   OBJECT_DIR = CMakeFiles/sandbox2d.dir
   OBJECT_FILE_DIR = CMakeFiles/sandbox2d.dir/src
 
-build CMakeFiles/sandbox2d.dir/src/ndc_plane.cpp.o: CXX_COMPILER__sandbox2d_unscanned_Debug /Users/alifezithu/Documents/CLionProjects/sandbox2d/src/ndc_plane.cpp || cmake_object_order_depends_target_sandbox2d
+build CMakeFiles/sandbox2d.dir/src/ndc_plane.cpp.o: CXX_COMPILER__sandbox2d_unscanned_Debug /Users/alifezithu/Documents/sandbox2d/src/ndc_plane.cpp || cmake_object_order_depends_target_sandbox2d
+  DEFINES = -DGL_SILENCE_DEPRECATION
   DEP_FILE = CMakeFiles/sandbox2d.dir/src/ndc_plane.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  INCLUDES = -I/Users/alifezithu/Documents/CLionProjects/sandbox2d/./include -I/usr/local/include
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/alifezithu/Documents/sandbox2d/./include -I/usr/local/include
   OBJECT_DIR = CMakeFiles/sandbox2d.dir
   OBJECT_FILE_DIR = CMakeFiles/sandbox2d.dir/src
 
-build CMakeFiles/sandbox2d.dir/src/geometry.cpp.o: CXX_COMPILER__sandbox2d_unscanned_Debug /Users/alifezithu/Documents/CLionProjects/sandbox2d/src/geometry.cpp || cmake_object_order_depends_target_sandbox2d
+build CMakeFiles/sandbox2d.dir/src/geometry.cpp.o: CXX_COMPILER__sandbox2d_unscanned_Debug /Users/alifezithu/Documents/sandbox2d/src/geometry.cpp || cmake_object_order_depends_target_sandbox2d
+  DEFINES = -DGL_SILENCE_DEPRECATION
   DEP_FILE = CMakeFiles/sandbox2d.dir/src/geometry.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  INCLUDES = -I/Users/alifezithu/Documents/CLionProjects/sandbox2d/./include -I/usr/local/include
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/alifezithu/Documents/sandbox2d/./include -I/usr/local/include
   OBJECT_DIR = CMakeFiles/sandbox2d.dir
   OBJECT_FILE_DIR = CMakeFiles/sandbox2d.dir/src
 
-build CMakeFiles/sandbox2d.dir/src/engine.cpp.o: CXX_COMPILER__sandbox2d_unscanned_Debug /Users/alifezithu/Documents/CLionProjects/sandbox2d/src/engine.cpp || cmake_object_order_depends_target_sandbox2d
+build CMakeFiles/sandbox2d.dir/src/engine.cpp.o: CXX_COMPILER__sandbox2d_unscanned_Debug /Users/alifezithu/Documents/sandbox2d/src/engine.cpp || cmake_object_order_depends_target_sandbox2d
+  DEFINES = -DGL_SILENCE_DEPRECATION
   DEP_FILE = CMakeFiles/sandbox2d.dir/src/engine.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  INCLUDES = -I/Users/alifezithu/Documents/CLionProjects/sandbox2d/./include -I/usr/local/include
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/alifezithu/Documents/sandbox2d/./include -I/usr/local/include
+  OBJECT_DIR = CMakeFiles/sandbox2d.dir
+  OBJECT_FILE_DIR = CMakeFiles/sandbox2d.dir/src
+
+build CMakeFiles/sandbox2d.dir/src/part.cpp.o: CXX_COMPILER__sandbox2d_unscanned_Debug /Users/alifezithu/Documents/sandbox2d/src/part.cpp || cmake_object_order_depends_target_sandbox2d
+  DEFINES = -DGL_SILENCE_DEPRECATION
+  DEP_FILE = CMakeFiles/sandbox2d.dir/src/part.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/alifezithu/Documents/sandbox2d/./include -I/usr/local/include
   OBJECT_DIR = CMakeFiles/sandbox2d.dir
   OBJECT_FILE_DIR = CMakeFiles/sandbox2d.dir/src
 
@@ -83,23 +95,23 @@ build CMakeFiles/sandbox2d.dir/src/engine.cpp.o: CXX_COMPILER__sandbox2d_unscann
 
 
 #############################################
-# Link the static library libsandbox2d.a
+# Link the static library libcore.a
 
-build libsandbox2d.a: CXX_STATIC_LIBRARY_LINKER__sandbox2d_Debug CMakeFiles/sandbox2d.dir/src/object.cpp.o CMakeFiles/sandbox2d.dir/src/ndc_plane.cpp.o CMakeFiles/sandbox2d.dir/src/geometry.cpp.o CMakeFiles/sandbox2d.dir/src/engine.cpp.o
-  ARCH_FLAGS = -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk
+build libcore.a: CXX_STATIC_LIBRARY_LINKER__sandbox2d_Debug CMakeFiles/sandbox2d.dir/src/object.cpp.o CMakeFiles/sandbox2d.dir/src/ndc_plane.cpp.o CMakeFiles/sandbox2d.dir/src/geometry.cpp.o CMakeFiles/sandbox2d.dir/src/engine.cpp.o CMakeFiles/sandbox2d.dir/src/part.cpp.o
+  ARCH_FLAGS = -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles/sandbox2d.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = libsandbox2d.a
-  TARGET_PDB = sandbox2d.a.dbg
+  TARGET_FILE = libcore.a
+  TARGET_PDB = core.a.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/alifezithu/Documents/CLionProjects/sandbox2d/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/alifezithu/Documents/sandbox2d/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -110,7 +122,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/alifezithu/Documents/CLionProjects/sandbox2d/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/alifezithu/Documents/CLionProjects/sandbox2d -B/Users/alifezithu/Documents/CLionProjects/sandbox2d/cmake-build-debug
+  COMMAND = cd /Users/alifezithu/Documents/sandbox2d/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/alifezithu/Documents/sandbox2d -B/Users/alifezithu/Documents/sandbox2d/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -120,7 +132,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build sandbox2d: phony libsandbox2d.a
+build sandbox2d: phony libcore.a
 
 # =============================================================================
 # Folder targets.
@@ -128,9 +140,9 @@ build sandbox2d: phony libsandbox2d.a
 # =============================================================================
 
 #############################################
-# Folder: /Users/alifezithu/Documents/CLionProjects/sandbox2d/cmake-build-debug
+# Folder: /Users/alifezithu/Documents/sandbox2d/cmake-build-debug
 
-build all: phony libsandbox2d.a
+build all: phony libcore.a
 
 # =============================================================================
 # Built-in targets
@@ -139,14 +151,14 @@ build all: phony libsandbox2d.a
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake /Users/alifezithu/Documents/CLionProjects/sandbox2d/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake /Users/alifezithu/Documents/sandbox2d/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake /Users/alifezithu/Documents/CLionProjects/sandbox2d/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake: phony
+build /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake /Users/alifezithu/Documents/sandbox2d/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake: phony
 
 
 #############################################

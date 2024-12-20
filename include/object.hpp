@@ -5,6 +5,7 @@
 #ifndef OBJECT_HPP
 #define OBJECT_HPP
 #include <vector>
+#include <string>
 
 namespace core {
 
@@ -12,7 +13,7 @@ class object {
 public:
     virtual ~object() = default;
 
-    std::string name;
+    std::string name{};
     std::vector<object *> children{};
     object *parent = nullptr;
 
