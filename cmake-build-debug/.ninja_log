@@ -1,0 +1,9 @@
+# ninja log v6
+3	333	1734612235091312792	CMakeFiles/sandbox2d.dir/src/object.cpp.o	abd410c57872e3f3
+5	203	1734407766364960185	CMakeFiles/sandbox2d.dir/src/value.cpp.o	eae2fc6db5d07e0f
+4	37	1734612255255961570	CMakeFiles/sandbox2d.dir/src/engine.cpp.o	708388a494843bfc
+37	111	1734612255288746721	libsandbox2d.a	a4cc9a6d5aeaab45
+0	110	1734331344705394722	CMakeFiles/sandbox2d.dir/src/object.c.o	54852a2467f9952d
+2	43	1734668293078089647	build.ninja	6475379eee6ef192
+4	57	1734612235091639750	CMakeFiles/sandbox2d.dir/src/geometry.cpp.o	ddcc89f4108805bb
+4	69	1734612235091538542	CMakeFiles/sandbox2d.dir/src/ndc_plane.cpp.o	f7e4409e845801ac

@@ -1,0 +1,3 @@
+/Users/alifezithu/Documents/CLionProjects/sandbox2d/cmake-build-debug/CMakeFiles/sandbox2d.dir
+/Users/alifezithu/Documents/CLionProjects/sandbox2d/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/alifezithu/Documents/CLionProjects/sandbox2d/cmake-build-debug/CMakeFiles/rebuild_cache.dir
